@@ -1,0 +1,45 @@
+body {
+    margin: 2%;
+    background: #A1FFCE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.jumbotron {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#header {
+    font-size: 400%;
+    color: #ffffff;
+    font-family: Macondo Swash Caps,cursive;
+}
+
+label {
+    font-size: 150%;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link:active {
+    color : #11998e;
+}
+
+.btn-primary {
+    background-color: #11998e;
+    border-color: #11998e;
+}
+
+.btn-primary:hover {
+    background-color: #11998e;
+    border-color: #11998e;
+}
+
+.btn-primary:not([disabled]):not(.disabled):active{
+    background-color: #11998e;
+    border-color: #11998e;
+}
