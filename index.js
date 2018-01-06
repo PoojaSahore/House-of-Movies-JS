@@ -25,7 +25,7 @@ function add() {
     .then(data => data.json())
     .then(data => { console.log(data,data.Search)
         if(data.Response === 'False')
-        alert(data.Error)
+        alert('Please try again with fewer keywords')
         data.Search.map(movie => {
             div.innerHTML += `<div class="text-center">
                 <h1 class="link" onclick="details('${movie.imdbID}')">${movie.Title}</h1>
